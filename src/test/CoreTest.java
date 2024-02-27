@@ -25,7 +25,7 @@ public class CoreTest {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
 
-		// get title
+		// get the title
 
 		System.out.println(driver.findElement(By.cssSelector("h1")).getText());
 
