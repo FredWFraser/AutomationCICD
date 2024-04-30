@@ -32,6 +32,6 @@ public class NewTest2 {
 		//a.dragAndDrop(source, target).build().perform();
 		a.dragAndDrop(source2, target).build().perform();
 		driver.switchTo().defaultContent();
-		driver.close();
+		driver.quit();
   }
 }

@@ -178,7 +178,7 @@ public class CoreTest {
 		driver.findElement(By.id("mousehover")).click();
 		driver.findElement(By.linkText("Top")).click();
 
-		driver.close();
+		driver.quit();
 
 	}
 

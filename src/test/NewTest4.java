@@ -35,7 +35,7 @@ public class NewTest4 {
 		driver.findElement(By.cssSelector(".chkAgree")).click();
 		driver.findElement(By.xpath("//button[text()='Proceed']")).click();
 
-	    driver.close();
+	    driver.quit();
 
 	}
 

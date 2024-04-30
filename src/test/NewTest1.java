@@ -176,7 +176,7 @@ public class NewTest1 {
 		driver.findElement(By.id("mousehover")).click();
 		driver.findElement(By.linkText("Top")).click();
 
-		driver.close();
+		driver.quit();
 
 	}
 }

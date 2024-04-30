@@ -79,7 +79,7 @@ public class NewTest3 {
 
 		driver.findElement(By.name("ctl00$mainContent$btn_FindFlights")).click();
 
-		driver.close();
+		driver.quit();
 
 	}
 }

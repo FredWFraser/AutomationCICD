@@ -32,7 +32,7 @@ public class DragNDropTest {
 		//a.dragAndDrop(source, target).build().perform();
 		a.dragAndDrop(source2, target).build().perform();
 		driver.switchTo().defaultContent();
-		driver.close();
+		driver.quit();
 
 	}
 
